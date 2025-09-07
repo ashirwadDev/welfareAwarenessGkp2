@@ -45,10 +45,20 @@ export default function Footer() {
           <p className="text-sm">📍 Gorakhpur, Uttar Pradesh, India</p>
           <p className="text-sm">📧 info@welfareawareness.org</p>
           <p className="text-sm">📞 +91 XXXXXXXXXX</p>
-          <div className="flex space-x-4 mt-3">
-            <a href="#" className="hover:text-teal-400">🌐</a>
-            <a href="#" className="hover:text-teal-400">📘</a>
-            <a href="#" className="hover:text-teal-400">📸</a>
+          <div className="mt-4">
+            <p className="text-sm mb-2">Follow us on:</p>
+            <div className="flex space-x-4">
+              {/* Official Welfare Awareness Insta */}
+              <a
+                href="https://www.instagram.com/welfare_awareness_gorakhpur/"
+                target="_blank"
+                rel="noreferrer"
+                className="text-pink-500 hover:text-pink-400"
+                aria-label="Official Welfare Awareness Instagram"
+              >
+                <FaInstagram size={20} />
+              </a>
+            </div>
           </div>
         </div>
       </div>
