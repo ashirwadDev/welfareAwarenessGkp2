@@ -6,7 +6,7 @@ export default function OurTeam() {
     {
       name: "Arvind Yadav",
       role: "President",
-      img: "/president.jpg",
+      img: "/presiident.jpg",
     },
     {
       name: "Shubham Mishra",

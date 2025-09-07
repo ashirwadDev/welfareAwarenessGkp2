@@ -21,6 +21,7 @@ export default function Navbar() {
     { name: "About Us", to: "about" },
     { name: "Our Team", to: "team" },
     { name: "FAQs", to: "faqs" },
+    { name: "Membership", to:"membership"}
   ];
 
   return (
