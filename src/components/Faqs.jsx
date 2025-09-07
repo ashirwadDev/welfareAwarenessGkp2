@@ -41,6 +41,7 @@ export default function FAQs() {
 
   return (
     <section
+      id="faqs"
       name="faqs"
       className="bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100 px-6 py-16"
     >

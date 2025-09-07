@@ -3,7 +3,7 @@ import React from "react";
 
 export default function Hero() {
   return (
-    <section name="home" className="min-h-screen flex flex-col items-center justify-center text-center bg-gray-100 dark:bg-gray-900 px-6">
+    <section id="home" name="home" className="min-h-screen flex flex-col items-center justify-center text-center bg-gray-100 dark:bg-gray-900 px-6">
       {/* Heading / Quote */}
       <h1 className="text-4xl md:text-6xl font-extrabold mb-6" style={{ color: "#4ade80" }}>
         “Together for a Better Tomorrow”

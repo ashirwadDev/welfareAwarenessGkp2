@@ -17,6 +17,7 @@ export default function OurTeam() {
 
   return (
     <section
+      id="team"
       name="team"
       className="bg-gray-50 dark:bg-gray-900 text-gray-900 dark:text-gray-100 px-6 py-16"
     >

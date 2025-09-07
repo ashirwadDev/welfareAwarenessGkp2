@@ -29,7 +29,7 @@ export default function About() {
   }, []);
 
   return (
-    <section name="about" className="bg-gray-50 dark:bg-gray-800 text-gray-900 dark:text-gray-100 px-6 py-16">
+    <section id="about" name="about" className="bg-gray-50 dark:bg-gray-800 text-gray-900 dark:text-gray-100 px-6 py-16">
       {/* Divider Horizontal Line */}
       <div className="flex justify-center items-center mb-12">
         <div
