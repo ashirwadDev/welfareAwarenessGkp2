@@ -7,7 +7,7 @@ import FadeInSection from "./FadeInSection";
 export default function OurTeam() {
   const coreTeam = [
     {
-      name: "Arvind Yadav",
+      name: "Arvind Yaduvanshi",
       role: "President",
       img: "/presiident.jpg",
       insta: "https://www.instagram.com/arvind_yaduvanshi04/",
