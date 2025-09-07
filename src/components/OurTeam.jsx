@@ -5,26 +5,15 @@ export default function OurTeam() {
   const coreTeam = [
     {
       name: "Arvind Yadav",
-      role: "Founder & President",
-      img: "/president.jpg", // replace with real image
+      role: "President",
+      img: "/president.jpg",
     },
     {
       name: "Shubham Mishra",
       role: "Vice President",
-      img: "/image.png",
-    },
-    {
-      name: "Shree",
-      role: "Secretary",
-      img: "/secretary.jpg",
+      img: "/vicepresident3.jpg",
     },
   ];
-
-  // Example: 50+ members with placeholder images
-  const members = Array.from({ length: 50 }, (_, i) => ({
-    name: `Member ${i + 1}`,
-    img: "https://via.placeholder.com/100", // replace with real photo
-  }));
 
   return (
     <section
@@ -34,41 +23,29 @@ export default function OurTeam() {
       {/* Heading */}
       <div className="text-center mb-12">
         <h2 className="text-3xl md:text-4xl font-bold text-teal-400">
-          Our Team
+          Executive Team
         </h2>
         <div className="h-1 w-24 bg-teal-400 mx-auto mt-2 rounded"></div>
       </div>
 
       {/* Core Members */}
-      <div className="flex flex-wrap justify-center gap-8 mb-12">
+      <div className="flex flex-col md:flex-row justify-center items-center gap-8 mb-12 w-full overflow-x-hidden">
         {coreTeam.map((member, index) => (
           <div
             key={index}
-            className="flex flex-col items-center text-center max-w-xs"
+            className="flex flex-col items-center text-center w-full max-w-xs md:max-w-sm"
           >
             <img
               src={member.img}
               alt={member.name}
               className="w-32 h-32 md:w-40 md:h-40 rounded-full object-cover shadow-lg border-4 border-teal-400"
             />
-            <h3 className="mt-4 text-lg font-semibold">{member.name}</h3>
-            <p className="text-sm text-gray-600 dark:text-gray-400">
+            <h3 className="mt-4 text-lg md:text-xl font-semibold">
+              {member.name}
+            </h3>
+            <p className="text-sm md:text-lg text-gray-600 dark:text-gray-400">
               {member.role}
             </p>
-          </div>
-        ))}
-      </div>
-
-      {/* All Members Grid */}
-      <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-8 gap-6">
-        {members.map((member, index) => (
-          <div key={index} className="flex flex-col items-center text-center">
-            <img
-              src={member.img}
-              alt={member.name}
-              className="w-16 h-16 rounded-full object-cover shadow-md border border-teal-400"
-            />
-            <p className="mt-2 text-xs">{member.name}</p>
           </div>
         ))}
       </div>
