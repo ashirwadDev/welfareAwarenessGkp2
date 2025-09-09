@@ -8,6 +8,7 @@ import Team from "./components/OurTeam";
 import Membership from "./components/Membership";
 import Footer from "./components/Footer";
 import Faqs from './components/Faqs'
+import AdBanner from './components/AdBanner'
 export default function App() {
   const [showSplash, setShowSplash] = useState(true);
 
@@ -20,8 +21,10 @@ export default function App() {
           <Navbar />
           <Hero />
           <About />
+          <AdBanner />
           <Team />
           <Faqs />
+          <AdBanner />
           <Membership />
           <Footer />
         </>
