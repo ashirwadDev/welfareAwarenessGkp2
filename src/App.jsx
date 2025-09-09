@@ -9,6 +9,7 @@ import Membership from "./components/Membership";
 import Footer from "./components/Footer";
 import Faqs from './components/Faqs'
 import AdBanner from './components/AdBanner'
+import PopunderAd from './components/PopunderAd'
 export default function App() {
   const [showSplash, setShowSplash] = useState(true);
 
@@ -20,12 +21,13 @@ export default function App() {
         <>
           <Navbar />
           <Hero />
-          <About />
           <AdBanner />
+          <About />
           <Team />
           <Faqs />
-          <AdBanner />
+          <PopunderAd />
           <Membership />
+          <PopunderAd />
           <Footer />
         </>
       )}
