@@ -21,13 +21,10 @@ export default function App() {
         <>
           <Navbar />
           <Hero />
-          <AdBanner />
           <About />
           <Team />
           <Faqs />
-          <PopunderAd />
           <Membership />
-          <PopunderAd />
           <Footer />
         </>
       )}
