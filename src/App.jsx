@@ -8,8 +8,6 @@ import Team from "./components/OurTeam";
 import Membership from "./components/Membership";
 import Footer from "./components/Footer";
 import Faqs from './components/Faqs'
-import AdBanner from './components/AdBanner'
-import PopunderAd from './components/PopunderAd'
 export default function App() {
   const [showSplash, setShowSplash] = useState(true);
 
