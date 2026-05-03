@@ -31,7 +31,7 @@ export default function Navbar() {
         {/* Logo */}
         <a href="#" className="flex items-center space-x-2">
           <img
-            src="/client_logo.jpg"
+            src="/New.jpg"
             alt="Welfare Awareness Logo"
             className="h-10 w-10 rounded-full"
           />
