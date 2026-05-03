@@ -53,7 +53,7 @@ export default function LogoSplash({ onFinish }) {
 
         {/* Logo - slightly below */}
         <motion.img
-          src="/client_logo.jpg"
+          src="/New.jpg"
           alt="Logo"
           className="w-32 h-32 rounded-full shadow-2xl"
           initial={{ scale: 0, rotate: 0, opacity: 0, y: 50 }}
